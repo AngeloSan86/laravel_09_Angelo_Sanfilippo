@@ -26,7 +26,6 @@ class ProductController extends Controller
             'price' => $price,
         ]);
 
-        $product->save();
 
         return redirect(route('home'));
 
